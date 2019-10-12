@@ -1,23 +1,24 @@
 module.exports = {
-  siteTitle: "HeroBlog - a GatsbyJS starter", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteTitle: "HakunaTech", // <title>
+  shortSiteTitle: "- HakunaTech", // <title> ending for posts and pages
+  siteDescription:
+    "Building solar and automated power systems for excellent performance and reliability.",
+  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com", //****** UPDATE */
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "Darlington Akuma",
+  authorTwitterAccount: "hakuna", //***** UPDATE */
 
   /* info */
-  headerTitle: "greg lobinski",
-  headerSubTitle: "presents another one GatsbyJS starter",
+  headerTitle: "HakunaTech",
+  headerSubTitle: "RC - 00000", //***** UPDATE */
 
   /* manifest.json */
-  manifestName: "HeroBlog - a GatsbyJS starter",
-  manifestShortName: "HeroBlog", // max 12 characters
+  manifestName: "HakunaTech",
+  manifestShortName: "HakunaTech", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
@@ -32,8 +33,8 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "twitter", url: "https://twitter.com/hakuna" }, //***** UPDATE */
+    { name: "facebook", url: "http://facebook.com/hakuna" }, //***** UPDATE */
+    { name: "Instagram", url: "https://instagram.com/hakuna" } //***** UPDATE */
   ]
 };
