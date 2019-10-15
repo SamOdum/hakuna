@@ -3,7 +3,7 @@ module.exports = {
   shortSiteTitle: "- HakunaTech", // <title> ending for posts and pages
   siteDescription:
     "Building solar and automated power systems for excellent performance and reliability.",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com", //****** UPDATE */
+  siteUrl: "https://hakunatech.com", //****** UPDATE */
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",

@@ -53,12 +53,17 @@ const Item = props => {
             }
 
             :global(.homepage):not(.fixed) & :global(a) {
-              color: ${theme.color.neutral.white};
+              color: ${theme.color.brand.primary};
+              background: color(white alpha(-40%));
+              // background-color: ${theme.color.brand.primary};
+              // opacity: 0.6;
+              // text-shadow: 0px 1px 5px #000000;
+              // font-weight: ${theme.font.weight.bold};
             }
 
             :global(a:hover) {
               color: ${theme.color.brand.primary};
-              background: color(white alpha(-60%));
+              background: color(white alpha(-80%));
             }
 
             :global(svg) {

@@ -39,6 +39,7 @@ const Hero = props => {
           font-size: ${theme.hero.h1.size};
           margin: ${theme.space.stack.l};
           color: ${theme.hero.h1.color};
+          text-shadow: 0px 1px 3px #000000;
           line-height: ${theme.hero.h1.lineHeight};
           text-remove-gap: both 0 "Open Sans";
 

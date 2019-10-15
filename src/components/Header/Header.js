@@ -201,9 +201,11 @@ class Header extends React.Component {
                 :global(a.logoType),
                 h1 {
                   color: ${theme.color.neutral.white};
+                  text-shadow: 0px 1px 3px #000000;
                 }
                 h2 {
                   color: ${theme.color.neutral.gray.d};
+                  text-shadow: 0px 1px 3px #000000;
                 }
               }
             }

@@ -7,7 +7,6 @@ Welcome to [Hakuna Tech](https://), our [mission](https://#) here is to be your 
 ### Features I included:
 
 * Easy editable content in **Markdown** files (posts, pages and parts)
-* **CSS** with `styled-jsx` and `PostCSS`
 * **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
 * **Social** sharing (Twitter, Facebook, Google, LinkedIn)
 * **Comments** (Facebook)
