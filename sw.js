@@ -32,24 +32,24 @@ self.__precacheManifest = [
     "url": "styles.153756554dcd1a19c082.css"
   },
   {
-    "url": "styles-f7a6793750cc6fd4963a.js"
+    "url": "styles-b6d30381c068cfa1bd19.js"
   },
   {
     "url": "commons-735ea08d2458d56a878a.js"
   },
   {
-    "url": "app-972d1e7c871e01c90bf0.js"
+    "url": "app-65fcca7a5376f9a0555d.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-b19dee0a0de92c5c2621.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "e93cd155a1c9d3515294d4a1a868739d"
+    "revision": "dfb56484dc5f3e7be7e74f7858111330"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "06a28df2e13de5318b6811543c8ade37"
+    "revision": "91c7d877b8cd14ba7a7facae93e3745e"
   },
   {
     "url": "manifest.webmanifest",
@@ -77,7 +77,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/hakuna/app-972d1e7c871e01c90bf0.js`))) {
+  if (!resources || !(await caches.match(`/hakuna/app-65fcca7a5376f9a0555d.js`))) {
     return await fetch(event.request)
   }
 
