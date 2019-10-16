@@ -4,8 +4,8 @@ module.exports = {
   siteDescription:
     "Building solar and automated power systems for excellent performance and reliability.",
   siteUrl: "https://hakunatech.com", //****** UPDATE */
-  // pathPrefix: "",
-  siteImage: "preview.jpg",
+  pathPrefix: "hakuna",
+  siteImage: "social-share.jpg",
   siteLanguage: "en",
 
   /* author */

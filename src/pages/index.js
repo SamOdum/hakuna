@@ -114,12 +114,12 @@ export const query = graphql`
         src
       }
     }
-    bgTablet: imageSharp(fluid: { originalName: { regex: "/hero-background-tablet/" } }) {
+    bgTablet: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
       resize(width: 800, height: 1100, quality: 90, cropFocus: CENTER) {
         src
       }
     }
-    bgMobile: imageSharp(fluid: { originalName: { regex: "/hero-background-mobile/" } }) {
+    bgMobile: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
       resize(width: 450, height: 850, quality: 90, cropFocus: CENTER) {
         src
       }
