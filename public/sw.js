@@ -26,30 +26,30 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8ca301e606c34fea9c87.js"
+    "url": "webpack-runtime-940e02a70ab629b59527.js"
   },
   {
-    "url": "styles.153756554dcd1a19c082.css"
+    "url": "styles.25a42abd79caf8782b19.css"
   },
   {
-    "url": "styles-5397c4d41a5d4375b96f.js"
+    "url": "styles-0b496a511249f6b4f9a9.js"
   },
   {
     "url": "commons-735ea08d2458d56a878a.js"
   },
   {
-    "url": "app-3c3acce3521925892d36.js"
+    "url": "app-ba939e783043230ecf2c.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-b19dee0a0de92c5c2621.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "653e2e5619cb4473702212d230f6ad0f"
+    "revision": "9b149f7f79fe9f51f32158402b66d990"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "30e907bbfa1a0dd8421b0c13b6a70ffb"
+    "revision": "70ddc0a83c332019c06df5b227ce8fe0"
   },
   {
     "url": "manifest.webmanifest",
@@ -72,12 +72,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/hakuna`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/hakuna/app-3c3acce3521925892d36.js`))) {
+  if (!resources || !(await caches.match(`/app-ba939e783043230ecf2c.js`))) {
     return await fetch(event.request)
   }
 
@@ -90,7 +90,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/hakuna/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
